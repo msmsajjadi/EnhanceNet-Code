@@ -56,9 +56,9 @@ The images will be first downscaled and then upscaled with EnhanceNet.
 
 # FAQ
 
-- Upon calling `./run.sh`, the message `./run.sh: Permission denied` appears.
+- Upon calling `./run.sh`, the message `Permission denied` appears.
 
-  Solution: Enter `chmod 544 run.sh`, then retry the run command.
+  Solution: Enter `chmod 544 run.sh enhancenet.py`, then retry the run command.
 
 - I already have TensorFlow and/or don't want to run the virtualenv script.
 
